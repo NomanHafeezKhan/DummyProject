@@ -25,11 +25,6 @@ namespace WebApplication1.Models
             get { return _City; }
             set { _City = value; }
         }
-        //public DateTime EntryDate
-        //{
-        //    get { return _EntryDate; }
-        //    set { _EntryDate = value; }
-        //}
         public int Age
         {
             get { return _Age; }
