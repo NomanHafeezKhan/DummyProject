@@ -3,16 +3,9 @@ using System;
 using WebApplication1.Models;
 using System.Configuration;
 using System.Data.SqlClient;
-using System.IO;
 using System.Web.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using ARA_StringHunt;
-using System.Threading;
-using Microsoft.Web.WebPages.OAuth;
-using Facebook.ApiClient;
-using System.Data;
-using paytm;
 using System.Linq;
 
 namespace WebApplication1.Controllers
