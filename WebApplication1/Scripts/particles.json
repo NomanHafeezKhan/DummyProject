@@ -1,0 +1,30 @@
+{
+	"particles":{
+	"number":{
+	"value":100
+	},
+    "color": {
+      "value": "#e7e248"
+    },
+	"shape":{
+	"type":"star"
+	},
+	"opacity":{
+	"value":0.3,
+	"random":true,
+	
+	"anim":{
+	"enable":true,
+	"speed":300
+	}
+	},
+	"size":{
+	"value":15,
+	"random":true,
+	"anim":{
+	"enable":true,
+	"speed":30
+	}
+	}
+	}
+}
