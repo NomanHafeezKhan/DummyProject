@@ -72,13 +72,13 @@ namespace WebApplication1.Controllers
         {
             if (model.Id==0)
             { 
-            string query = " insert into tbl_Dummy (_Name,_Age,_City) values(@Name,@Age,@City)";
+            string query = "insert into tbl_Dummy (_Name,_Age,_City) values(@Name,@Age,@City)";
             con.Execute(query, new { model.Name, model.Age,model.City });
                 return RedirectToAction("Listcategory");
             }
             else
             {
-                string query = " update tbl_Dummy set _Name=@Name,_Age=@Age,_City=@City where _id='" + model.Id + "'";
+                string query = "update tbl_Dummy set _Name=@Name,_Age=@Age,_City=@City where _id='" + model.Id + "'";
                 con.Execute(query, new { model.Name, model.Age, model.City });
                 return RedirectToAction("Listcategory");
 
