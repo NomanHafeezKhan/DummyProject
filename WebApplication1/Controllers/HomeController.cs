@@ -70,7 +70,7 @@ namespace WebApplication1.Controllers
         [HttpPost]
         public ActionResult Addcategory(ModelContext model) // Work while we post page  
         {
-            if (model.Id<0)
+            if (model.Id==0)
             { 
             string query = " insert into tbl_Dummy (_Name,_Age,_City) values(@Name,@Age,@City)";
             con.Execute(query, new { model.Name, model.Age,model.City });
